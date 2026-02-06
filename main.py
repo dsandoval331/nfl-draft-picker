@@ -32,6 +32,23 @@ class Player:
         """
         return f"Player(name='{self.name}', score={self.score}, place='{self.place}')"
 
+class Draftee:
+    def __init__(self, id, name, college, classification, position, position_rank, height, weight):
+        self.id = id
+        self.name = name.
+        self.college = college
+        self.classification = classification
+        self.position = position
+        self.position_rank = position_rank
+        self.height = height
+        self.weight = weight
+
+        def __repr__(self):
+        """
+        Defines the 'computer string' representation of the object.
+        This is useful for debugging and printing the list of objects.
+        """
+        return f"Draftee(id={self.id}, name='{self.name}', college='{self.college}', classification='{self.classification}', position='{self.position}', position_rank={self.position_rank}, height={self.height}, weight={self.weight})"
 
 def setup_league_settings():
         print("What would you like to name your league?")
@@ -65,6 +82,10 @@ def setup_draft(draft_type):
           print("\nSetting up an offline draft...")
       else:
           print("\nOnline draft setup is currently under development. Please check back later.")
+
+def import_draftees():
+        print("\nImporting draftees... (functionality to be implemented)\n")
+
 def intro():
         print("\nWelcome to the NFL Draft Fantasy Pick'em game!")
         print("In this game, you'll make fantasy picks for the NFL Draft.") 
@@ -88,8 +109,9 @@ def outro():
 def main():
         intro()
         league = setup_league_settings()
-        players_list = setup_players(league.players)
+        #players_list = setup_players(league.players)
         setup_draft(league.draft_type)
+        import_draftees()
         calculate_scores()
         display_results()
         outro()
