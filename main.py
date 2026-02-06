@@ -35,7 +35,7 @@ class Player:
 class Draftee:
     def __init__(self, id, name, college, classification, position, position_rank, height, weight):
         self.id = id
-        self.name = name.
+        self.name = name
         self.college = college
         self.classification = classification
         self.position = position
@@ -43,7 +43,7 @@ class Draftee:
         self.height = height
         self.weight = weight
 
-        def __repr__(self):
+    def __repr__(self):
         """
         Defines the 'computer string' representation of the object.
         This is useful for debugging and printing the list of objects.
@@ -83,8 +83,30 @@ def setup_draft(draft_type):
       else:
           print("\nOnline draft setup is currently under development. Please check back later.")
 
-def import_draftees():
-        print("\nImporting draftees... (functionality to be implemented)\n")
+def import_draftees(file):
+        print(f"\nImporting draftees from file: {file}")
+        draftees_list = []
+        try:
+            with open(file, 'r') as f:
+                next(f)  # Skip header line
+                for line in f:
+                    data = line.strip().split(',')
+                    if len(data) == 8:  # Ensure there are enough fields
+                        draftee = Draftee(
+                            id=int(data[0]),
+                            name=data[1],
+                            college=data[2],
+                            classification=data[3],
+                            position=data[4],
+                            position_rank=int(data[5]),
+                            height=int(data[6]),
+                            weight=int(data[7])
+                        )
+                        draftees_list.append(draftee)
+        except FileNotFoundError:
+            print(f"Error: File '{file}' not found. Please ensure the file is in the correct location.")
+        return draftees_list    
+        print("Draftees imported successfully!\n")
 
 def intro():
         print("\nWelcome to the NFL Draft Fantasy Pick'em game!")
@@ -111,6 +133,12 @@ def main():
         league = setup_league_settings()
         #players_list = setup_players(league.players)
         setup_draft(league.draft_type)
+        file = '2026_draftees.txt'
+        draftees = import_draftees(file)
+
+        for draftee in draftees:
+             print(f"Draftee ID: {draftee.id}, Name: {draftee.name}, College: {draftee.college}, Classification: {draftee.classification}, Position: {draftee.position}, Position Rank: {draftee.position_rank}, Height: {draftee.height} inches, Weight: {draftee.weight} lbs")
+
         import_draftees()
         calculate_scores()
         display_results()
