@@ -83,11 +83,13 @@ def setup_players(player_count):
       
 def setup_draft(draft_type, player):
       if draft_type.lower() == "offline":
+          players_draftee_list = []
           print("\nSetting up an offline draft...")
           print(f"Setting up draft for player: {player.name}...")
           print(f"What is name of {player.name}'s file with results:")
           player.file = input()
-          import_draftees(player.file)
+          players_draftee_list = import_draftees(player.file)
+          return players_draftee_list
       else:
           print("\nOnline draft setup is currently under development. Please check back later.")
 
@@ -125,15 +127,33 @@ def intro():
         print("In this game, you'll make fantasy picks for the NFL Draft.") 
         print("Good luck!\n")
 
-def calculate_scores():
+def calculate_scores(plyr_draftee_list, master_draftee_list, scoring_system, rnds):
+        points = 1
         print("\nCalculating scores... (functionality to be implemented)\n")
+        print(f"Player's draftee list: {plyr_draftee_list}")
+        print(f"The league's scoring system is: {scoring_system}")
+        # Score calculation logic will be based on the league's scoring system and the performance of each draftee in the player's list
+        score = 0
+        #for draftee in plyr_draftee_list:
+            #score += draftee.position_rank  # Example scoring logic
+        #print(f"Player's calculated score: {score}")
+
+        for obj1, obj2 in zip(plyr_draftee_list, master_draftee_list):
+            if obj1.id == obj2.id:
+                print(f"Objects with IDs {obj1.id} and {obj2.id} are equal.")
+                score += points  # Example scoring logic for a correct match
+                print(f"Score updated to: {score}")
+            else:
+                print(f"Objects with IDs {obj1.id} and {obj2.id} are not equal.")
+            points += 1
+        return score
 
 
 def display_results():
         print("\nHere are the final scores:\n")
-        #sorted_results=sorted(Player.all_instances, key=lambda x: x.score, reverse=True)
+        sorted_results = sorted(Player.all_instances, key=lambda player: player.score, reverse=True)
         i = 1
-        for player in Player.all_instances:
+        for player in sorted_results:
             print(f"{player.name}: {player.score} points - Place: {i}")
             i += 1
 
@@ -153,9 +173,10 @@ def main():
              print("hmmm")
         print(f"Testing: {players_list}")
         for player in Player.all_instances:
-             print(f"Setting up draft for player: {player.name}")
-             setup_draft(league.draft_type, player)
-        calculate_scores()
+             plyr_draftee_list = []
+             plyr_draftee_list = setup_draft(league.draft_type, player)
+             player.score = calculate_scores(plyr_draftee_list, draftees_list, league.scoring_system, league.rounds)
+             
         display_results()
         outro()
         print("testing")

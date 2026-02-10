@@ -1,18 +1,18 @@
-27,Caleb,Lomu,Utah,Soph,OT,5,6-6,308
+1,Fernando,Mendoza,Indiana,Jr,QB,1,6-5,225
 2,Rueben,Bain Jr.,Miami (Fla.),Jr,EDGE,1,6-3,270
-23,Monroe,Freeling,Georgia,Jr,OT,4,6-7,315
+3,Jordyn,Tyson,Arizona St.,Jr,WR,1,6-2,200
 4,Carnell,Tate,Ohio State,Jr,WR,2,6-3,195
 17,T.J.,Parker,Clemson,Jr,EDGE,4,6-3,260
 6,Spencer,Fano,Utah,Jr,OT,1,6-6,308
 21,KC,Concepcion,Texas A&M,Jr,WR,4,5-11,190
 8,Peter,Woods,Clemson,Jr,DL,1,6-3,310
-3,Jordyn,Tyson,Arizona St.,Jr,WR,1,6-2,200
+23,Monroe,Freeling,Georgia,Jr,OT,4,6-7,315
 10,Jeremiyah,Love,Notre Dame,Jr,RB,1,6-0,214
-1,Fernando,Mendoza,Indiana,Jr,QB,1,6-5,225
+11,Sonny,Styles,Ohio State,Sr,LB,2,6-5,243
 12,Avieon,Terrell,Clemson,Jr,CB,2,5-11,180
 15,Olaivavega,Ioane,Penn State,Jr,IOL,1,6-4,323
 14,Francis,Mauigoa,Miami (Fla.),Jr,OT,2,6-6,335
-11,Sonny,Styles,Ohio State,Sr,LB,2,6-5,243
+27,Caleb,Lomu,Utah,Soph,OT,5,6-6,308
 16,David,Bailey,Texas Tech,Sr,EDGE,3,6-3,250
 19,Max,Iheanachor,Arizona St.,Sr,OT,3,6-6,330
 18,Makai,Lemon,USC,Jr,WR,3,5-11,195

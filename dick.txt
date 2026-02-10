@@ -4,9 +4,9 @@
 4,Carnell,Tate,Ohio State,Jr,WR,2,6-3,195
 15,Olaivavega,Ioane,Penn State,Jr,IOL,1,6-4,323
 6,Spencer,Fano,Utah,Jr,OT,1,6-6,308
-31,Cashius,Howell,Texas A&M,Sr,EDGE,5,6-2,248
-8,Peter,Woods,Clemson,Jr,DL,1,6-3,310
 9,Jermod,McCoy,Tennessee,Jr,CB,1,6-0,193
+8,Peter,Woods,Clemson,Jr,DL,1,6-3,310
+31,Cashius,Howell,Texas A&M,Sr,EDGE,5,6-2,248
 10,Jeremiyah,Love,Notre Dame,Jr,RB,1,6-0,214
 29,Emmanuel,McNeil-Warren,Toledo,Sr,S,2,6-2,202
 12,Avieon,Terrell,Clemson,Jr,CB,2,5-11,180
