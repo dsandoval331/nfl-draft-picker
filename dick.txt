@@ -1,0 +1,150 @@
+50,Connor,Lew,Auburn,Jr,IOL,4,6-3,303
+2,Rueben,Bain Jr.,Miami (Fla.),Jr,EDGE,1,6-3,270
+40,Malachi,Lawrence,UCF,Sr,LB,5,6-4,260
+4,Carnell,Tate,Ohio State,Jr,WR,2,6-3,195
+44,Josiah,Trotter,Missouri,Soph,LB,7,6-2,237
+6,Spencer,Fano,Utah,Jr,OT,1,6-6,308
+120,Vinny,Anthony II,Wisconsin,Sr,WR,20,6-0,190
+8,Peter,Woods,Clemson,Jr,DL,1,6-3,310
+36,Lee,Hunter,Texas Tech,Sr,DL,3,6-4,330
+10,Jeremiyah,Love,Notre Dame,Jr,RB,1,6-0,214
+62,Eli,Stowers,Vanderbilt,Sr,TE,3,6-4,235
+12,Avieon,Terrell,Clemson,Jr,CB,2,5-11,180
+102,Arion,Carter,Tennessee,Jr,LB,12,6-1,235
+14,Francis,Mauigoa,Miami (Fla.),Jr,OT,2,6-6,335
+64,A.J.,Haulcy,LSU,Sr,S,5,6-0,222
+16,David,Bailey,Texas Tech,Sr,EDGE,3,6-3,250
+70,Chris,Bell,Louisville,Sr,WR,11,6-2,220
+18,Makai,Lemon,USC,Jr,WR,3,5-11,195
+126,Drew,Shelton,Penn State,Sr,OT,12,6-5,308
+20,Kadyn,Proctor,Alabama,Jr,IOL,2,6-7,366
+104,Darrell,Jackson Jr.,Florida State,Sr,DL,11,6-5,37
+22,Kenyon,Sadiq,Oregon,Jr,TE,1,6-3,245
+38,Chris,Brazzell II,Tennessee,Jr,WR,7,6-5,200
+24,Mansoor,Delane,LSU,Sr,CB,3,6-0,190
+68,Alex,Harkey,Oregon,Sr,IOL,7,6-6,327
+26,Jake,Golday,Cincinnati,Sr,LB,3,6-4,240
+122,Matt,Gulbin,Michigan St.,Sr,IOL,17,6-4,312
+28,Emmanuel,Pregnon,Oregon,Sr,IOL,3,6-5,318
+7,Caleb,Downs,Ohio State,Jr,S,1,6-0,205
+30,Omar,Cooper Jr.,Indiana,Jr,WR,5,6-0,204
+144,DeVonta,Smith,Notre Dame,Sr,CB,16,5-11,195
+33,Ty,Simpson,Alabama,Jr,QB,2,6-2,208
+90,Keyron,Crawford,Auburn,Sr,LB,10,6-4,255
+35,Keionte,Scott,Miami (Fla.),Sr,S,3,6-0,195
+9,Jermod,McCoy,Tennessee,Jr,CB,1,6-0,193
+37,Denzel,Boston,Washington,Jr,WR,6,6-4,210
+142,Ar'maj,Reed-Adams,Texas A&M,Sr,IOL,20,6-5,325
+39,Christen,Miller,Georgia,Jr,DL,4,6-4,310
+32,Cashius,Howell,Texas A&M,Sr,EDGE,5,6-2,248
+41,Anthony,Hill Jr.,Texas,Jr,LB,6,6-3,238
+124,J.C.,Davis,Illinois,Sr,OT,11,6-5,335
+43,Austin,Barber,Florida,Sr,OT,6,6-6,314
+34,CJ,Allen,Georgia,Jr,LB,4,6-1,235
+45,Brandon,Cisse,South Carolina,Jr,CB,4,6-0,190
+136,Joe,Royer,Cincinnati,Sr,TE,7,6-5,250
+47,Keith,Abney II,Arizona St.,Jr,CB,5,6-0,190
+146,Travis,Burke,Memphis,Sr,OT,13,6-9,315
+49,Caleb,Tiernan,Northwestern,Sr,OT,7,6-7,325
+15,Olaivavega,Ioane,Penn State,Jr,IOL,1,6-4,323
+51,Genesis,Smith,Arizona,Jr,S,4,6-2,204
+114,Brian,Parker II,Duke,Jr,IOL,16,6-5,305
+53,Caden,Curry,Ohio State,Sr,DE,1,6-3,260
+84,Antonio,Williams,Clemson,Jr,WR,15,5-11,190
+55,Max,Klare,Ohio State,Jr,TE,2,6-5,243
+54,Chris,Johnson,San Diego St.,Sr,CB,7,6-0,195
+57,Julian,Neal,Arkansas,Sr,CB,9,6-2,208
+150,Garrett,Nussmeier,LSU,Sr,QB,5,6-1,205
+59,Jadarian,Price,Notre Dame,Jr,RB,2,5-11,210
+80,Germie,Bernard,Alabama,Sr,WR,14,6-1,204
+61,Brenen,Thompson,Miss. State,Sr,WR,9,5-9,170
+21,KC,Concepcion,Texas A&M,Jr,WR,4,5-11,190
+63,Chris,McClellan,Missouri,Sr,DL,6,6-4,323
+94,Ethan,Burke,Texas,Sr,LB,11,6-6,259
+65,Michael,Trigg,Baylor,Sr,TE,4,6-4,240
+56,Colton,Hood,Tennessee,Soph,CB,8,6-0,195
+67,Eric,Rivers,Georgia Tech,Sr,WR,10,5-11,180
+98,Kamari,Ramsey,USC,Jr,S,8,6-0,205
+69,Carter,Smith,Indiana,Jr,IOL,8,6-5,313
+140,Dani,Dennis-Sutton,Penn State,Sr,DE,4,6-5,265
+71,Jeff,Caldwell,Cincinnati,Sr,WR,12,6-5,215
+19,Max,Iheanachor,Arizona St.,Sr,OT,3,6-6,330
+73,Eric,McAlister,TCU,Sr,WR,13,6-3,205
+11,Sonny,Styles,Ohio State,Sr,LB,2,6-5,243
+75,Treydan,Stukes,Arizona,Sr,CB,10,6-2,200
+78,Joshua,Josephs,Tennessee,Sr,EDGE,6,6-3,240
+77,R,Mason,Thomas,Oklahoma,Sr,DL,7,6-2,249
+3,Jordyn,Tyson,Arizona St.,Jr,WR,1,6-2,200
+79,Isaiah,World,Oregon,Sr,OT,8,6-8,318
+48,D'Angelo,Ponds,Indiana,Jr,CB,6,5-9,173
+81,Gennings,Dunker,Iowa,Sr,IOL,10,6-5,315
+128,Davison,Igbinosun,Ohio State,Sr,CB,14,6-2,195
+83,Chris,Adams,Memphis,Sr,IOL,12,6-5,277
+74,Kage,Casey,Boise St.,Jr,IOL,9,6-5,311
+85,Brent,Austin,California,Sr,CB,11,5-11,180
+23,Monroe,Freeling,Georgia,Jr,OT,4,6-7,315
+87,Anthony,Lucas,USC,Sr,DE,2,6-5,285
+110,Zion,Young,Missouri,Sr,DE,3,6-5,262
+89,Zachariah,Branch,Georgia,Jr,WR,17,5-10,180
+13,Keldric,Faulk,Auburn,Jr,EDGE,2,6-6,285
+91,Jude,Bowry,Boston College,Jr,OT,9,6-5,311
+108,Malik,Muhammad,Texas,Jr,CB,13,6-0,188
+93,Dontay,Corleone,Cincinnati,Sr,DL,9,6-1,335
+86,Josh,Cameron,Baylor,Sr,WR,16,6-1,224
+95,Chase,Bisontis,Texas A&M,Jr,IOL,13,6-5,315
+27,Caleb,Lomu,Utah,Soph,OT,5,6-6,308
+97,Zakee,Wheatley,Penn State,Sr,S,7,6-2,202
+66,Keylan,Rutledge,Georgia Tech,Sr,IOL,6,6-4,330
+99,Parker,Brailsford,Alabama,Jr,IOL,14,6-2,290
+17,T.J.,Parker,Clemson,Jr,EDGE,4,6-3,260
+101,Elijah,Sarratt,Indiana,Sr,WR,18,6-2,213
+106,Blake,Miller,Clemson,Sr,OT,10,6-6,315
+103,Gabe,Jacas,Illinois,Sr,LB,13,6-3,270
+82,Carver,Willis,Washington,Sr,IOL,11,6-5,312
+105,Kevin,Coleman Jr.,Missouri,Sr,WR,19,5-11,180
+42,Akheem,Mesidor,Miami (Fla.),Sr,DL,5,6-3,265
+107,Kyle,Louis,Pittsburgh,Jr,LB,14,6-1,220
+92,Jack,Endries,Texas,Jr,TE,6,6-4,236
+109,LT,Overton,Alabama,Sr,DL,12,6-5,278
+5,Arvell,Reese,Ohio State,Jr,LB,1,6-4,243
+111,Jake,Slaughter,Florida,Sr,IOL,15,6-4,303
+118,DeMonte,Capehart,Clemson,Sr,DL,16,6-5,315
+113,A.J.,Holmes Jr.,Texas Tech,Jr,DL,14,6-3,300
+52,Trey,Zuhn III,Texas A&M,Sr,IOL,5,6-6,319
+115,Jordan,vandenBerg,GeorgiaTech,Sr,DL,15,6-3,310
+58,Jaishawn,Barham,Michigan,Sr,LB,9,6-3,243
+117,Demond,Claiborne,Wake Forest,Sr,RB,3,5-10,195
+100,Will,Lee III,Texas A&M,Sr,CB,12,6-1,189
+119,Jonah,Coleman,Washington,Sr,RB,4,5-9,220
+72,Lance,Mason,Wisconsin,Sr,TE,5,6-4,250
+121,Tyreak,Sapp,Florida,Sr,LB,15,6-2,274
+138,Harold,Perkins Jr.,LSU,Jr,LB,21,6-1,222
+123,Cian,Slone,NC State,Sr,LB,16,6-4,252
+130,Xavier,Scott,Illinois,Sr,S,9,5-11,195
+125,Jacob,Rodriguez,Texas Tech,Sr,LB,17,6-1,235
+60,Ja'Kobi,Lane,USC,Jr,WR,8,6-4,200
+127,Cade,Klubnik,Clemson,Sr,QB,4,6-2,210
+76,Dillon,Thieneman,Oregon,Soph,S,6,6-0,207
+129,Tim,Keenan III,Alabama,Sr,DL,17,6-2,320
+88,Domonique,Orange,Iowa St.,Sr,DL,8,6-4,325
+131,Red,Murdock,Buffalo,Sr,LB,18,6-1,240
+46,Romello,Height,Texas Tech,Sr,LB,8,6-3,240
+133,Lander,Barton,Utah,Sr,LB,19,6-5,240
+112,Clay,Patterson,Stanford,Sr,DL,13,6-3,280
+135,Derrick,Moore,Michigan,Sr,LB,20,6-3,260
+132,Logan,Jones,Iowa,Sr,IOL,18,6-3,302
+137,Kaytron,Allen,Penn State,Sr,RB,5,5-11,219
+25,Kayden,McDonald,Ohio State,Jr,DL,2,6-3,326
+139,Daylen,Everette,Georgia,Sr,CB,15,6-1,190
+116,Trinidad,Chambliss,Ole Miss,Sr,QB,3,6-0,200
+141,Wesley,Williams,Duke,Jr,DE,5,6-3,265
+96,Nick,Barrett,South Carolina,Sr,DL,10,6-3,322
+143,Robert,Spears-Jennings,Oklahoma,Sr,S,10,6-0,213
+134,Keagen,Trost,Missouri,Sr,IOL,19,6-4,316
+145,Dallen,Bentley,Utah,Sr,TE,8,6-4,259
+29,Emmanuel,McNeil-Warren,Toledo,Sr,S,2,6-2,202
+147,Oscar,Delp,Georgia,Sr,TE,9,6-5,245
+148,Zxavian,Harris,Ole Miss,Sr,DL,18,6-8,330
+149,Sabastian,Harsh,NC State,Sr,DE,6,6-3,263
+1,Fernando,Mendoza,Indiana,Jr,QB,1,6-5,225
+151,Caleb,Banks,Florida,Sr,DL,19,6-5,330
