@@ -34,6 +34,6 @@ def read_every_other_line_and_shuffle(input_filename, output_filename):
         f.writelines(reordered_lines)
 
 # Example Usage:
-input_file_name = 'output_data.txt'
-output_file_name = 'dick.txt'
+input_file_name = 'One_Round.txt'
+output_file_name = 'tom.txt'
 read_every_other_line_and_shuffle(input_file_name, output_file_name)
