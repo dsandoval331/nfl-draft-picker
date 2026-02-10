@@ -17,7 +17,7 @@ class League:
 class Player:
     all_instances = []
 
-    def __init__(self, name, score=0, place="tbd"):
+    def __init__(self, name, score=0, place="tbd", file=None):
         self.name = name
         ## Generate random number for development
         random_score = __import__('random').randint(0, 100)
@@ -33,22 +33,26 @@ class Player:
         return f"Player(name='{self.name}', score={self.score}, place='{self.place}')"
 
 class Draftee:
-    def __init__(self, id, name, college, classification, position, position_rank, height, weight):
+    all_instances = []
+
+    def __init__(self, id, first_name, last_name, college, classification, position, position_rank, height, weight):
         self.id = id
-        self.name = name
+        self.first_name = first_name
+        self.last_name = last_name
         self.college = college
         self.classification = classification
         self.position = position
         self.position_rank = position_rank
         self.height = height
         self.weight = weight
+        Draftee.all_instances.append(self)
 
     def __repr__(self):
         """
         Defines the 'computer string' representation of the object.
         This is useful for debugging and printing the list of objects.
         """
-        return f"Draftee(id={self.id}, name='{self.name}', college='{self.college}', classification='{self.classification}', position='{self.position}', position_rank={self.position_rank}, height={self.height}, weight={self.weight})"
+        return f"Draftee(id={self.id}, first_name='{self.first_name}', last_name='{self.last_name}', college='{self.college}', classification='{self.classification}', position='{self.position}', position_rank={self.position_rank}, height={self.height}, weight={self.weight})"
 
 def setup_league_settings():
         print("What would you like to name your league?")
@@ -66,7 +70,7 @@ def setup_league_settings():
         return my_league
 
 def setup_players(player_count):
-      # my_players_list = []
+      my_players_list = []
       print(f"\nSetting up {player_count} players for the league...")
       for i in range(1, int(player_count) + 1):
           print(f"\nEnter the name of player {i}:")
@@ -75,11 +79,15 @@ def setup_players(player_count):
           # my_players_list.append(new_player)
           print(f"Player {i} named {player_name} has been added to the league.")
           print(f"Testing: {Player.all_instances}")
-      #return my_players_list
+      return my_players_list
       
-def setup_draft(draft_type):
+def setup_draft(draft_type, player):
       if draft_type.lower() == "offline":
           print("\nSetting up an offline draft...")
+          print(f"Setting up draft for player: {player.name}...")
+          print(f"What is name of {player.name}'s file with results:")
+          player.file = input()
+          import_draftees(player.file)
       else:
           print("\nOnline draft setup is currently under development. Please check back later.")
 
@@ -88,25 +96,29 @@ def import_draftees(file):
         draftees_list = []
         try:
             with open(file, 'r') as f:
-                next(f)  # Skip header line
                 for line in f:
-                    data = line.strip().split(',')
-                    if len(data) == 8:  # Ensure there are enough fields
+                    print (f":{line}")
+                    data = line.split(',')
+                    print(f"Len(data) is: {len(data)}")
+                    print(f"Data: {data}")
+                    if len(data) == 9:  # Ensure there are enough fields
                         draftee = Draftee(
                             id=int(data[0]),
-                            name=data[1],
-                            college=data[2],
-                            classification=data[3],
-                            position=data[4],
-                            position_rank=int(data[5]),
-                            height=int(data[6]),
-                            weight=int(data[7])
+                            first_name=data[1],
+                            last_name=data[2],
+                            college=data[3],
+                            classification=data[4],
+                            position=data[5],
+                            position_rank=int(data[6]),
+                            height=(data[7]),
+                            weight=int(data[8])
                         )
                         draftees_list.append(draftee)
         except FileNotFoundError:
             print(f"Error: File '{file}' not found. Please ensure the file is in the correct location.")
-        return draftees_list    
         print("Draftees imported successfully!\n")
+        return draftees_list    
+       
 
 def intro():
         print("\nWelcome to the NFL Draft Fantasy Pick'em game!")
@@ -131,20 +143,23 @@ def outro():
 def main():
         intro()
         league = setup_league_settings()
-        #players_list = setup_players(league.players)
-        setup_draft(league.draft_type)
-        file = '2026_draftees.txt'
-        draftees = import_draftees(file)
+        players_list = setup_players(league.players)
+        #setup_draft(league.draft_type)
+        file = 'output_data.txt'
+        draftees_list = import_draftees(file)
 
-        for draftee in draftees:
-             print(f"Draftee ID: {draftee.id}, Name: {draftee.name}, College: {draftee.college}, Classification: {draftee.classification}, Position: {draftee.position}, Position Rank: {draftee.position_rank}, Height: {draftee.height} inches, Weight: {draftee.weight} lbs")
-
-        import_draftees()
+        for draftee in draftees_list:
+             print(f"Draftee ID: {draftee.id}, Name: {draftee.first_name} {draftee.last_name}, College: {draftee.college}, Classification: {draftee.classification}, Position: {draftee.position}, Position Rank: {draftee.position_rank}, Height: {draftee.height} inches, Weight: {draftee.weight} lbs")
+             print("hmmm")
+        print(f"Testing: {players_list}")
+        for player in Player.all_instances:
+             print(f"Setting up draft for player: {player.name}")
+             setup_draft(league.draft_type, player)
         calculate_scores()
         display_results()
         outro()
         print("testing")
-        print(Player.all_instances)
+        #print(Draftee.all_instances)
         print("end testing")
 
 main()
