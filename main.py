@@ -129,6 +129,7 @@ def intro():
 
 def calculate_scores(plyr_draftee_list, master_draftee_list, scoring_system, rnds):
         points = 1
+        streak = 0
         print("\nCalculating scores... (functionality to be implemented)\n")
         print(f"Player's draftee list: {plyr_draftee_list}")
         print(f"The league's scoring system is: {scoring_system}")
@@ -141,10 +142,15 @@ def calculate_scores(plyr_draftee_list, master_draftee_list, scoring_system, rnd
         for obj1, obj2 in zip(plyr_draftee_list, master_draftee_list):
             if obj1.id == obj2.id:
                 print(f"Objects with IDs {obj1.id} and {obj2.id} are equal.")
-                score += points  # Example scoring logic for a correct match
+                if scoring_system == "standard with bonuses":
+                    streak += 1
+                    score = score + points + (streak - 1) # Example scoring logic for a correct match
+                else:
+                    score += points  # Example scoring logic for a correct match without bonuses
                 print(f"Score updated to: {score}")
             else:
                 print(f"Objects with IDs {obj1.id} and {obj2.id} are not equal.")
+                streak = 0  # Reset streak on a mismatch
             points += 1
         return score
 
